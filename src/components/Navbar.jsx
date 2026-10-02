@@ -78,7 +78,7 @@ export default function Navbar() {
                 Abhishek Negi
               </span>
               <span className="text-[11px] font-mono text-cyan-400 tracking-wider uppercase font-semibold">
-                Frontend Developer
+                Frontend & WordPress Developer
               </span>
             </div>
           </a>

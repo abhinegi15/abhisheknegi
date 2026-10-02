@@ -61,11 +61,11 @@ export default function ProjectModal({ project, isOpen, onClose }) {
 
           {/* Content Body */}
           <div className="p-6 sm:p-8 space-y-6">
-            {/* Customizable Placeholder Note */}
-            <div className="flex items-start gap-2.5 p-3.5 rounded-xl bg-cyan-950/40 border border-cyan-500/30 text-xs font-mono text-cyan-300">
-              <Info className="w-4 h-4 text-cyan-400 flex-shrink-0 mt-0.5" />
+            {/* Live Client Website Note */}
+            <div className="flex items-start gap-2.5 p-3.5 rounded-xl bg-cyan-950/40 border border-cyan-500/30 text-xs text-cyan-300">
+              <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
               <span>
-                Placeholder Case Study: When you provide your project repositories, we can instantly update the screenshots, live domain, and architecture details.
+                Live Client Website: Built with WordPress Custom Theme, responsive across devices, and live in production.
               </span>
             </div>
 
@@ -85,11 +85,11 @@ export default function ProjectModal({ project, isOpen, onClose }) {
               </div>
             )}
 
-            {/* Architectural Features */}
+            {/* Features */}
             <div>
               <h4 className="text-xs uppercase font-mono tracking-wider text-slate-400 mb-3 flex items-center gap-2">
                 <Zap className="w-4 h-4 text-cyan-400" />
-                Key Architectural Highlights
+                Key Features & Details
               </h4>
               <ul className="space-y-2.5">
                 {project.features.map((feature, idx) => (
@@ -122,26 +122,28 @@ export default function ProjectModal({ project, isOpen, onClose }) {
             {/* Footer Action Links */}
             <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-white/10">
               <span className="text-xs text-slate-400 font-mono">
-                * Production tested codebase
+                * Live Production Website
               </span>
 
               <div className="flex items-center gap-3">
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold glass-panel hover:bg-white/10 text-slate-200 border border-white/15 transition-colors"
-                >
-                  <Github className="w-4 h-4" />
-                  <span>View Repository</span>
-                </a>
+                {project.githubUrl && (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold glass-panel hover:bg-white/10 text-slate-200 border border-white/15 transition-colors"
+                  >
+                    <Github className="w-4 h-4" />
+                    <span>View Repository</span>
+                  </a>
+                )}
                 <a
                   href={project.demoUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20 hover:from-cyan-400 hover:to-blue-500 transition-all"
                 >
-                  <span>Launch Live Demo</span>
+                  <span>Visit Live Website</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
               </div>

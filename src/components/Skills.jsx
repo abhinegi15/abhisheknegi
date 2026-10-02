@@ -4,6 +4,7 @@ import { Code2, Palette, Layers, Sparkles, CheckCircle2, Cpu } from 'lucide-reac
 import { skillsData } from '../data/portfolioData';
 
 const categoryIcons = {
+  wordpress: Layers,
   frontend: Code2,
   styling: Palette,
   integration: Layers
@@ -31,7 +32,7 @@ export default function Skills() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/40 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-medium mb-3"
           >
             <Cpu className="w-3.5 h-3.5 text-cyan-400" />
-            <span>TECHNICAL CAPABILITIES</span>
+            <span>SKILLS & TECHNOLOGIES</span>
           </motion.div>
 
           <motion.h2
@@ -41,7 +42,7 @@ export default function Skills() {
             transition={{ delay: 0.1 }}
             className="font-display font-extrabold text-3xl sm:text-5xl text-white tracking-tight"
           >
-            Skills, Tools & <span className="text-gradient">Core Competencies</span>
+            Skills, Tools & <span className="text-gradient">Technologies</span>
           </motion.h2>
 
           <motion.p
@@ -51,7 +52,7 @@ export default function Skills() {
             transition={{ delay: 0.2 }}
             className="text-slate-400 text-sm sm:text-base max-w-2xl mt-4"
           >
-            Over 3 years of building production-ready user interfaces with modern frontend technologies, responsive design paradigms, and API architectures.
+            3+ years of building responsive websites, WordPress custom themes, and clean frontend user interfaces.
           </motion.p>
 
           {/* Category Filter Pills */}
@@ -64,7 +65,7 @@ export default function Skills() {
                   : 'text-slate-400 hover:text-white'
               }`}
             >
-              All Competencies
+              All Skills
             </button>
             {skillsData.categories.map((cat) => (
               <button
@@ -76,7 +77,7 @@ export default function Skills() {
                     : 'text-slate-400 hover:text-white'
                 }`}
               >
-                {cat.title.split('&')[0]}
+                {cat.title}
               </button>
             ))}
           </div>
@@ -106,7 +107,7 @@ export default function Skills() {
                         {cat.title}
                       </h3>
                       <p className="text-xs text-slate-400 font-mono">
-                        {cat.skills.length} Technical Proficiencies
+                        {cat.skills.length} Core Skills
                       </p>
                     </div>
                   </div>
@@ -149,8 +150,8 @@ export default function Skills() {
 
                 {/* Card Footer Tag */}
                 <div className="mt-8 pt-4 border-t border-white/10 flex items-center justify-between text-[11px] font-mono text-slate-400">
-                  <span>Tested in Production</span>
-                  <span className="text-cyan-400">3+ Years Commercial</span>
+                  <span>Hands-on Experience</span>
+                  <span className="text-cyan-400">3+ Years Experience</span>
                 </div>
               </motion.div>
             );
@@ -165,23 +166,23 @@ export default function Skills() {
           className="mt-16 glass-panel p-6 rounded-2xl border border-white/10 flex flex-wrap items-center justify-around gap-6 text-center"
         >
           <div>
-            <div className="text-2xl font-bold font-display text-white">React & Next.js</div>
-            <div className="text-xs text-cyan-400 font-mono">Component Architecture</div>
-          </div>
-          <div className="hidden sm:block w-px h-8 bg-white/10" />
-          <div>
-            <div className="text-2xl font-bold font-display text-white">Tailwind & MUI</div>
-            <div className="text-xs text-purple-400 font-mono">Design Systems & Styling</div>
-          </div>
-          <div className="hidden sm:block w-px h-8 bg-white/10" />
-          <div>
-            <div className="text-2xl font-bold font-display text-white">RESTful APIs</div>
-            <div className="text-xs text-emerald-400 font-mono">Real-time Data Streams</div>
-          </div>
-          <div className="hidden sm:block w-px h-8 bg-white/10" />
-          <div>
             <div className="text-2xl font-bold font-display text-white">WordPress CMS</div>
-            <div className="text-xs text-amber-400 font-mono">Custom Theme Engineering</div>
+            <div className="text-xs text-cyan-400 font-mono">Custom Theme Development</div>
+          </div>
+          <div className="hidden sm:block w-px h-8 bg-white/10" />
+          <div>
+            <div className="text-2xl font-bold font-display text-white">HTML5 & Modern CSS</div>
+            <div className="text-xs text-purple-400 font-mono">Responsive Design & Styling</div>
+          </div>
+          <div className="hidden sm:block w-px h-8 bg-white/10" />
+          <div>
+            <div className="text-2xl font-bold font-display text-white">JavaScript & React</div>
+            <div className="text-xs text-emerald-400 font-mono">Clean Frontend Code</div>
+          </div>
+          <div className="hidden sm:block w-px h-8 bg-white/10" />
+          <div>
+            <div className="text-2xl font-bold font-display text-white">REST APIs & Git</div>
+            <div className="text-xs text-amber-400 font-mono">Integration & Testing</div>
           </div>
         </motion.div>
 

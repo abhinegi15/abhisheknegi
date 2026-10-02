@@ -17,7 +17,7 @@ export default function WhyRecruiters() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/40 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-medium mb-3"
           >
             <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
-            <span>FOR HIRING MANAGERS & RECRUITERS</span>
+            <span>WHY WORK TOGETHER</span>
           </motion.div>
 
           <motion.h2
@@ -27,7 +27,7 @@ export default function WhyRecruiters() {
             transition={{ delay: 0.1 }}
             className="font-display font-extrabold text-3xl sm:text-5xl text-white tracking-tight"
           >
-            Why Abhishek Is The <span className="text-gradient">Right Frontend Hire</span>
+            Why Abhishek Is A <span className="text-gradient">Great Choice for Your Team</span>
           </motion.h2>
 
           <motion.p
@@ -37,7 +37,7 @@ export default function WhyRecruiters() {
             transition={{ delay: 0.2 }}
             className="text-slate-400 text-sm sm:text-base max-w-2xl mt-4"
           >
-            Blending creative design sensibilities with dependable, scalable frontend engineering to deliver measurable impact from day one.
+            Blending clean visual design with reliable, responsive development to build websites that work smoothly.
           </motion.p>
         </div>
 
@@ -68,7 +68,7 @@ export default function WhyRecruiters() {
 
               <div className="mt-6 pt-4 border-t border-white/10 flex items-center gap-2 text-xs font-mono text-cyan-400">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                <span>Production Standard</span>
+                <span>Quality Work</span>
               </div>
             </motion.div>
           ))}
@@ -84,13 +84,13 @@ export default function WhyRecruiters() {
         >
           <div className="space-y-2 text-center md:text-left">
             <span className="text-xs font-mono text-cyan-400 uppercase tracking-wider font-semibold">
-              ⚡ Available for Immediate Placement
+              ⚡ Available for Full-Time Roles & Projects
             </span>
             <h4 className="font-display font-bold text-xl sm:text-2xl text-white">
-              Looking for a Frontend Developer with 3+ years experience?
+              Looking for a Frontend & WordPress Developer?
             </h4>
             <p className="text-slate-300 text-xs sm:text-sm max-w-xl">
-              Skilled in React, Next.js, Material UI, and Tailwind CSS. Based in Chandigarh, ready for hybrid, on-site, or remote setups.
+              Experienced in WordPress Custom Themes, HTML, CSS, JavaScript, and React. Based in Chandigarh, available for on-site or remote work.
             </p>
           </div>
 
@@ -98,7 +98,7 @@ export default function WhyRecruiters() {
             href="#contact"
             className="flex items-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-sm bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-lg shadow-cyan-500/25 transition-all whitespace-nowrap active:scale-95"
           >
-            <span>Initiate Interview</span>
+            <span>Contact Me</span>
             <ArrowRight className="w-4 h-4" />
           </a>
         </motion.div>

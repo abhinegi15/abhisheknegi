@@ -6,7 +6,7 @@ import { personalInfo } from '../data/portfolioData';
 const initialHistory = [
   {
     command: 'whoami',
-    output: `{\n  "name": "Abhishek Negi",\n  "role": "Frontend Developer & UI Specialist",\n  "experience": "3+ Years Professional Experience",\n  "location": "Chandigarh, India",\n  "status": "Available for High-Impact Frontend Roles",\n  "core_stack": ["React.js", "Next.js", "Tailwind CSS", "Material UI", "JavaScript (ES6+)"]\n}`
+    output: `{\n  "name": "Abhishek Negi",\n  "role": "Frontend & WordPress Developer",\n  "experience": "3+ Years Professional Experience",\n  "location": "Chandigarh, India",\n  "status": "Available for Full-time Roles & Projects",\n  "core_stack": ["WordPress Custom Themes", "HTML5 & CSS3", "JavaScript", "Tailwind CSS", "React.js"]\n}`
   }
 ];
 
@@ -16,10 +16,10 @@ export default function TechTerminal() {
   const [copied, setCopied] = useState(false);
 
   const commandResponses = {
-    whoami: `{\n  "name": "Abhishek Negi",\n  "role": "Frontend Developer",\n  "status": "Ready for hire",\n  "location": "Chandigarh, India"\n}`,
-    skills: `Frontend: React.js, Next.js, JavaScript (ES6+), HTML5, CSS3, jQuery\nUI & Styling: Tailwind CSS, Material UI (MUI), Bootstrap, Responsive UI\nCMS & APIs: WordPress Custom Themes, RESTful APIs, JSON, Vite\nWorkflow: Figma, Cross-Browser Compatibility, Git/GitHub`,
-    experience: `[1] Netscape Labs Pvt. Ltd. (Mohali) - Web Designer/Frontend Dev (Sep 2024 - Present)\n    • React Dashboards, Material UI, API Integration, Custom WordPress Themes\n[2] Shaurya Software Pvt. Ltd. (Zirakpur) - Website Developer (Sep 2023 - Aug 2024)\n    • Responsive Layouts, Cross-Browser Compatibility, JS/HTML/CSS\n[3] Wavy Informatics (Panchkula) - Web Designer (Dec 2022 - July 2023)\n    • Wireframing, Web UI, Trend Research, User Flows`,
-    contact: `Email:    negiabhi254@gmail.com\nPhone:    +91 8077874185\nLocation: Daria, Chandigarh, India\nStatus:   Ready for Immediate Interview`,
+    whoami: `{\n  "name": "Abhishek Negi",\n  "role": "Frontend & WordPress Developer",\n  "status": "Available for Work",\n  "location": "Chandigarh, India"\n}`,
+    skills: `CMS & Web: WordPress Custom Themes, PHP Basics, Responsive Web Design\nFrontend: HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Material UI, Tailwind CSS, Bootstrap 5, jQuery\nAPIs & Tools: RESTful APIs, Git/GitHub, Vite, Cross-Browser Testing`,
+    experience: `[1] Netscape Labs Pvt. Ltd. (Mohali) - Web Designer/Frontend Dev (Sep 2024 - Present)\n    • WordPress Custom Themes, Responsive Web UI, REST APIs, Tailwind CSS\n[2] Shaurya Software Pvt. Ltd. (Zirakpur) - Website Developer (Sep 2023 - Aug 2024)\n    • React.js, Material UI, Responsive Layouts, Cross-Browser Compatibility, JS/HTML/CSS\n[3] Wavy Informatics (Panchkula) - Web Designer (Dec 2022 - July 2023)\n    • Figma UI Design, Independent Frontend Web Development, HTML/CSS/JS`,
+    contact: `Email:    negiabhi254@gmail.com\nPhone:    +91 8077874185\nLocation: Daria, Chandigarh, India\nStatus:   Available for Full-time Roles & Projects`,
     help: `Available commands: whoami, skills, experience, contact, clear`,
   };
 
@@ -67,7 +67,7 @@ export default function TechTerminal() {
             <span className="w-3 h-3 rounded-full bg-emerald-500/80 inline-block" />
             <span className="ml-2 text-xs font-mono text-slate-400 flex items-center gap-1.5">
               <Terminal className="w-3.5 h-3.5 text-cyan-400" />
-              abhishek@frontend-craftsman:~
+              abhishek@developer:~
             </span>
           </div>
 

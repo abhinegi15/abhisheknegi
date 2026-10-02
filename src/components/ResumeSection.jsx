@@ -29,7 +29,7 @@ export default function ResumeSection() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/40 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-medium mb-3"
           >
             <FileText className="w-3.5 h-3.5 text-cyan-400" />
-            <span>CURRICULUM VITAE & BACKGROUND</span>
+            <span>RESUME & EXPERIENCE</span>
           </motion.div>
 
           <motion.h2
@@ -39,7 +39,7 @@ export default function ResumeSection() {
             transition={{ delay: 0.1 }}
             className="font-display font-extrabold text-3xl sm:text-5xl text-white tracking-tight"
           >
-            Official <span className="text-gradient">Resume & Credentials</span>
+            Resume & <span className="text-gradient">Experience</span>
           </motion.h2>
 
           <motion.p
@@ -49,7 +49,7 @@ export default function ResumeSection() {
             transition={{ delay: 0.2 }}
             className="text-slate-400 text-sm sm:text-base max-w-2xl mt-4"
           >
-            Verified credentials, educational background, and downloadable PDF resume ready for recruiter ATS screening and interview loops.
+            Professional background, technical skills, and downloadable PDF resume.
           </motion.p>
         </div>
 
@@ -75,7 +75,7 @@ export default function ResumeSection() {
                   </div>
                   <div>
                     <h3 className="font-display font-bold text-xl text-white">Abhishek Negi CV</h3>
-                    <p className="text-xs font-mono text-cyan-300">Format: Official PDF Document</p>
+                    <p className="text-xs font-mono text-cyan-300">Format: PDF Document</p>
                   </div>
                 </div>
 
@@ -95,11 +95,11 @@ export default function ResumeSection() {
               {/* Key Highlights list */}
               <div className="space-y-2.5">
                 {[
-                  "3+ Years of Commercial Experience in Web Development",
-                  "Expertise in React.js, Next.js, Material UI & Tailwind CSS",
-                  "Demonstrated track record with 25+ completed projects",
-                  "100% Cross-Browser and Responsive design guarantees",
-                  "Immediate availability for full-time frontend roles"
+                  "3+ Years of Professional Experience in Web Development",
+                  "WordPress Custom Themes, HTML, CSS, JavaScript & React",
+                  "Over 25+ completed projects delivered on time",
+                  "100% Cross-Browser and Responsive design across all screens",
+                  "Available for full-time positions and projects"
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-2.5 text-xs sm:text-sm text-slate-300">
                     <CheckCircle2 className="w-4 h-4 text-cyan-400 flex-shrink-0" />
@@ -134,7 +134,7 @@ export default function ResumeSection() {
 
             {downloadCount > 0 && (
               <div className="mt-3 text-center text-xs font-mono text-emerald-400">
-                🎉 Download initiated! Best wishes for your hiring process.
+                🎉 Download started! Thank you for reviewing my resume.
               </div>
             )}
           </motion.div>

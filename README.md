@@ -1,6 +1,6 @@
-# Abhishek Negi — Modern Frontend Developer Portfolio
+# Abhishek Negi — Frontend & WordPress Developer Portfolio
 
-A showcase portfolio engineered for recruiters and engineering managers, built with **React**, **Tailwind CSS**, and **Framer Motion**.
+A professional portfolio website built with **React**, **Tailwind CSS**, and modern web standards.
 
 ---
 
@@ -21,13 +21,13 @@ npm run build
 ---
 
 ## 🛠️ Tech Stack & Key Features
-- **React 19 & Vite**: Ultra-fast build & lightning hot module replacement (HMR).
-- **Tailwind CSS 3.4**: Custom design tokens, dark theme surfaces, gradients, and micro-interactions.
-- **Framer Motion**: Smooth entrance transitions, scroll progress spring indicators, and modal animations.
-- **Interactive Tech Terminal**: A live developer terminal allowing recruiters to run commands (`whoami`, `skills`, `experience`, `contact`).
-- **Interactive Architecture Modals**: Deep dive into frontend highlights, performance metrics, and technology breakdowns.
-- **Resume PDF Integration**: Real resume file (`/Abhishek_Negi_Resume.pdf`) embedded with download triggers and celebration confetti.
-- **One-Click Contact**: Copy-to-clipboard for email/phone, WhatsApp direct chat, and interactive contact form.
+- **React & Vite**: Fast build and responsive user interface.
+- **Tailwind CSS**: Clean responsive design, modern dark surfaces, and custom styling.
+- **WordPress Custom Themes Focus**: Dedicated showcase for WordPress theme development and modern frontend.
+- **Interactive Developer Terminal**: A live terminal allowing visitors to run commands (`whoami`, `skills`, `experience`, `contact`).
+- **Project Case Studies & Modals**: Detailed views of custom WordPress themes and web projects.
+- **Resume PDF Integration**: Downloadable resume PDF (`/Abhishek_Negi_Resume.pdf`).
+- **One-Click Contact**: Copy-to-clipboard for email/phone, WhatsApp direct chat, and contact form.
 
 ---
 
@@ -36,9 +36,9 @@ npm run build
 ```
 abhishek-portfolio/
 ├── public/
-│   ├── Abhishek_Negi_Resume.pdf    # Official downloadable CV
-│   ├── abhishek.jpg                 # Profile picture
-│   ├── favicon.svg                  # Custom monogram icon
+│   ├── Abhishek_Negi_Resume.pdf    # Downloadable CV / Resume
+│   ├── abhishek.png                 # Profile picture (PNG)
+│   ├── favicon.svg                  # Custom icon
 │   └── projects/                    # Showcase screenshots
 │       ├── dashboard.jpg
 │       ├── ai_studio.jpg

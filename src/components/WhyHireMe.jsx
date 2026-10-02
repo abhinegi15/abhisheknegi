@@ -24,7 +24,7 @@ export default function WhyHireMe() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/40 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-medium mb-3"
           >
             <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
-            <span>FOR RECRUITERS & HIRING MANAGERS</span>
+            <span>WHY WORK WITH ME</span>
           </motion.div>
 
           <motion.h2
@@ -44,7 +44,7 @@ export default function WhyHireMe() {
             transition={{ delay: 0.2 }}
             className="text-slate-400 text-sm sm:text-base max-w-2xl mt-4"
           >
-            A high-velocity frontend engineer who bridges the gap between intricate design mockups and rock-solid, production-grade web performance.
+            A reliable frontend and WordPress developer who turns design concepts into fast, clean, and fully responsive websites.
           </motion.p>
         </div>
 
@@ -95,13 +95,13 @@ export default function WhyHireMe() {
           <div className="space-y-2 text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-2 text-cyan-300 font-semibold text-sm">
               <Rocket className="w-4 h-4" />
-              <span>Ready for Immediate Deployment</span>
+              <span>Available for Full-time Roles & Projects</span>
             </div>
             <h4 className="font-display font-bold text-xl sm:text-2xl text-white">
               Need someone who delivers clean, fast code from day one?
             </h4>
             <p className="text-slate-400 text-xs sm:text-sm max-w-xl">
-              Equipped with 3+ years of commercial development experience, strong team collaboration, and a relentless focus on user experience.
+              With 3+ years of professional development experience, clear communication, and high attention to detail.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function WhyHireMe() {
               href="#contact"
               className="px-6 py-3 rounded-xl font-semibold text-sm bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-lg shadow-cyan-500/30 transition-all active:scale-95 whitespace-nowrap"
             >
-              Schedule Interview
+              Contact Me
             </a>
           </div>
         </motion.div>

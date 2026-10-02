@@ -35,12 +35,12 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-display font-bold text-lg text-white">Abhishek Negi</span>
-                <p className="text-xs font-mono text-cyan-400">Frontend Developer & UI Craftsman</p>
+                <p className="text-xs font-mono text-cyan-400">Frontend & WordPress Developer</p>
               </div>
             </div>
 
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
-              3+ years of building high-performance web applications with React.js, Next.js, Material UI, and Tailwind CSS. Dedicated to clean architecture and delightful user experiences.
+              3+ years of experience building responsive websites, custom WordPress themes, and clean user interfaces. Dedicated to quality and reliable web experiences.
             </p>
 
             <div className="flex items-center gap-2 text-xs font-mono text-slate-400">
@@ -56,10 +56,10 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm text-slate-400">
               <li><a href="#about" className="hover:text-cyan-400 transition-colors">About & Resume</a></li>
-              <li><a href="#skills" className="hover:text-cyan-400 transition-colors">Technical Skills</a></li>
+              <li><a href="#skills" className="hover:text-cyan-400 transition-colors">Skills & Tools</a></li>
               <li><a href="#projects" className="hover:text-cyan-400 transition-colors">Featured Projects</a></li>
-              <li><a href="#experience" className="hover:text-cyan-400 transition-colors">Commercial Experience</a></li>
-              <li><a href="#contact" className="hover:text-cyan-400 transition-colors">Contact / Hire</a></li>
+              <li><a href="#experience" className="hover:text-cyan-400 transition-colors">Work Experience</a></li>
+              <li><a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a></li>
             </ul>
           </div>
 

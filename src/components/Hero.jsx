@@ -8,10 +8,10 @@ import confetti from 'canvas-confetti';
 import { personalInfo } from '../data/portfolioData';
 
 const titles = [
-  "Frontend Developer",
-  "React & Next.js Specialist",
-  "UI/UX Design Implementer",
-  "Tailwind & Material UI Expert"
+  "Frontend & WordPress Developer",
+  "WordPress Custom Themes",
+  "Responsive Web Developer",
+  "React & UI Developer"
 ];
 
 export default function Hero() {
@@ -50,7 +50,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-cyan-500"></span>
               </span>
-              <span>Available for Full-time Roles & High-Impact Projects</span>
+              <span>Available for Full-time Roles & Projects</span>
               <span className="hidden sm:inline text-slate-500">|</span>
               <span className="hidden sm:inline-flex items-center gap-1 text-slate-400">
                 <MapPin className="w-3 h-3 text-cyan-400" /> Chandigarh, India
@@ -102,7 +102,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed mb-8"
             >
-              Frontend Engineer with <span className="text-white font-semibold underline decoration-cyan-500/50 decoration-2 underline-offset-4">3+ years of commercial experience</span> building high-performance, pixel-perfect web interfaces. Specializing in <span className="text-cyan-300 font-medium">React.js, Next.js, Material UI, and Tailwind CSS</span> with seamless API integrations and responsive architectures.
+              Frontend & WordPress Developer with <span className="text-white font-semibold underline decoration-cyan-500/50 decoration-2 underline-offset-4">3+ years of professional experience</span> building clean, responsive websites. Experienced in <span className="text-cyan-300 font-medium">WordPress Custom Themes, HTML5, CSS3, JavaScript, Tailwind CSS, and React</span> with cross-browser compatibility and dependable performance.
             </motion.p>
 
             {/* Call to Actions */}
@@ -134,7 +134,7 @@ export default function Hero() {
                 href="#contact"
                 className="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-sm font-medium text-slate-300 hover:text-cyan-300 hover:bg-white/5 transition-colors"
               >
-                <span>Let's Talk</span>
+                <span>Contact Me</span>
                 <span className="text-cyan-400">→</span>
               </a>
             </motion.div>
@@ -146,8 +146,8 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="flex flex-wrap items-center justify-center lg:justify-start gap-2 pt-2 border-t border-white/10"
             >
-              <span className="text-xs font-mono text-slate-400 mr-2 uppercase tracking-wider">Core Arsenal:</span>
-              {["React.js", "Next.js", "Tailwind CSS", "Material UI", "JavaScript (ES6+)", "REST APIs", "WordPress"].map((tech) => (
+              <span className="text-xs font-mono text-slate-400 mr-2 uppercase tracking-wider">Core Skills:</span>
+              {["WordPress Custom Themes", "HTML5 & CSS3", "JavaScript", "Tailwind CSS", "React.js", "Next.js", "Bootstrap", "REST APIs"].map((tech) => (
                 <span
                   key={tech}
                   className="px-2.5 py-1 text-xs rounded-md bg-white/5 border border-white/10 text-slate-300 hover:text-cyan-300 hover:border-cyan-500/30 transition-colors"
@@ -172,19 +172,19 @@ export default function Hero() {
               {/* Card Container */}
               <div className="relative glass-panel rounded-3xl p-3 border border-white/20 shadow-2xl shadow-cyan-950/50 backdrop-blur-2xl">
                 {/* Photo Aspect Frame */}
-                <div className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-slate-900 border border-white/10">
+                <div className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-gradient-to-b from-slate-800 via-slate-900 to-dark-950 border border-white/10 flex items-end justify-center">
                   <img
                     src={personalInfo.profilePhoto}
-                    alt="Abhishek Negi - Frontend Developer"
+                    alt="Abhishek Negi - Frontend & WordPress Developer"
                     className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700 filter brightness-105 contrast-105"
                   />
                   {/* Subtle dark gradient overlay at bottom */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-dark-950/90 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-dark-950/90 via-dark-950/20 to-transparent pointer-events-none" />
 
                   {/* Overlay text at bottom of photo */}
-                  <div className="absolute bottom-4 left-4 right-4">
+                  <div className="absolute bottom-4 left-4 right-4 pointer-events-none">
                     <p className="font-display font-bold text-lg text-white">Abhishek Negi</p>
-                    <p className="text-xs font-mono text-cyan-300">Frontend Developer • 3+ Yrs Exp</p>
+                    <p className="text-xs font-mono text-cyan-300">Frontend & WordPress Developer • 3+ Yrs</p>
                   </div>
                 </div>
 
@@ -199,11 +199,11 @@ export default function Hero() {
                   </div>
                   <div>
                     <div className="text-[11px] text-slate-400 font-mono leading-none">Experience</div>
-                    <div className="text-sm font-bold text-white leading-tight">3+ Years Pro</div>
+                    <div className="text-sm font-bold text-white leading-tight">3+ Years</div>
                   </div>
                 </motion.div>
 
-                {/* Floating Badge 2: Modern Stack */}
+                {/* Floating Badge 2: WordPress Focus */}
                 <motion.div
                   animate={{ y: [0, 8, 0] }}
                   transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
@@ -213,8 +213,8 @@ export default function Hero() {
                     <Zap className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="text-[11px] text-slate-400 font-mono leading-none">React & Next.js</div>
-                    <div className="text-sm font-bold text-white leading-tight">Tailwind & MUI</div>
+                    <div className="text-[11px] text-slate-400 font-mono leading-none">WordPress & Web</div>
+                    <div className="text-sm font-bold text-white leading-tight">Custom Themes</div>
                   </div>
                 </motion.div>
 

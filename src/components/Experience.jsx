@@ -17,7 +17,7 @@ export default function Experience() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/40 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-medium mb-3"
           >
             <Briefcase className="w-3.5 h-3.5 text-cyan-400" />
-            <span>CAREER TRACK RECORD</span>
+            <span>WORK EXPERIENCE</span>
           </motion.div>
 
           <motion.h2
@@ -27,7 +27,7 @@ export default function Experience() {
             transition={{ delay: 0.1 }}
             className="font-display font-extrabold text-3xl sm:text-5xl text-white tracking-tight"
           >
-            Commercial <span className="text-gradient">Work Experience</span>
+            Professional <span className="text-gradient">Work Experience</span>
           </motion.h2>
 
           <motion.p
@@ -37,7 +37,7 @@ export default function Experience() {
             transition={{ delay: 0.2 }}
             className="text-slate-400 text-sm sm:text-base max-w-2xl mt-4"
           >
-            Over 3 years of commercial industry experience building production web applications, collaborating with cross-functional teams, and shipping scalable frontend code.
+            3+ years of experience building websites and web applications, working with designers and clients, and writing clean, reliable code.
           </motion.p>
         </div>
 
